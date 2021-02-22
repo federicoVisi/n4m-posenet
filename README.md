@@ -1,8 +1,7 @@
 # Posenet for Max
-Forked from [@yuichkun](https://github.com/yuichkun)
-https://github.com/yuichkun/n4m-posenet
-
-Includes [multi-pose patches posted on the cycling74 forum](https://cycling74.com/forums/posenet-into-dict/replies/1#reply-5fd770d2b2a7ee5f9fbcfb79) by [michel8](https://cycling74.com/author/54c66bc5d16525fc1363a818)
+* A fork of [n4m-posenet](https://github.com/yuichkun/n4m-posenet) by [@yuichkun](https://github.com/yuichkun).
+* Includes `modosc_posenet_main.maxpat`, a version of the main patch to be used with [modosc: a set of Max abstractions designed for computing motion descriptors from motion data in real time](https://github.com/motiondescriptors/modosc).
+* Includes [multi-pose patches posted on the cycling74 forum](https://cycling74.com/forums/posenet-into-dict/replies/1#reply-5fd770d2b2a7ee5f9fbcfb79) by [michel8](https://cycling74.com/author/54c66bc5d16525fc1363a818).
 
 # PoseNet 
 Wraps [PoseNet](https://github.com/tensorflow/tfjs-models/tree/master/posenet) inside electron and serves the detected parts via MaxAPI.
